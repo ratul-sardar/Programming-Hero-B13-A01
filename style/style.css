@@ -196,7 +196,7 @@ ul li a:hover {
 
 .cards-container {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 .card {
