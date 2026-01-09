@@ -19,6 +19,20 @@ h2 {
   color: #001931;
 }
 
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #001931;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #001931;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -76,6 +90,10 @@ p {
 
 .green {
   color: #2fab64;
+}
+
+.white {
+  color: white;
 }
 
 /* other class and styles */
@@ -153,4 +171,106 @@ ul li a:hover {
 .heroCta {
   display: flex;
   gap: 16px;
+}
+
+#cards {
+  background-color: #fbfbfb;
+  text-align: center;
+}
+
+#cards .content {
+  margin-bottom: 44px;
+}
+
+#cards h2 {
+  margin-bottom: 16px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  max-width: 322px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 4px #00193122;
+}
+
+.icon-bg {
+  background-color: #f95555;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bg img {
+  height: 32px;
+  width: 32px;
+}
+
+#solution {
+  text-align: left;
+}
+
+#solution .solution-container {
+  display: flex;
+  gap: 60px;
+}
+
+#solution .solution-container img {
+  border-radius: 12px;
+}
+
+#solution .solution-container .content {
+  margin: auto 0;
+}
+
+#solution .solution-container .content .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+#solution .solution-container .content ul {
+  flex-direction: column;
+  gap: 16px;
+}
+
+#solution .solution-container .content ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #001931;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#think {
+  text-align: center;
+}
+
+#think .sub-container {
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+  border-radius: 12px;
+}
+
+#think .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
 }
