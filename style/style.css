@@ -50,6 +50,7 @@ p {
 .btn {
   color: white;
   background-color: #469165;
+  box-shadow: 0px 4px 6px 4px #0019311c;
   font-size: 16px;
   font-weight: 600;
   border: none;
@@ -83,8 +84,8 @@ p {
 }
 
 .greenText {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 16px !important;
+  font-weight: 500 !important;
   color: #469165;
 }
 
@@ -273,4 +274,11 @@ ul li a:hover {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 24px;
+}
+
+#think .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
