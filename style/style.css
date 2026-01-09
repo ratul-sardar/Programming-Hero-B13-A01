@@ -33,6 +33,13 @@ h4 {
   color: #001931;
 }
 
+h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -281,4 +288,46 @@ ul li a:hover {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+footer {
+  width: 100%;
+  background-color: #001931;
+}
+
+footer .footer-container {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+footer .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-social h5 {
+  margin-bottom: 16px;
+}
+
+footer .footer-social .social-links {
+  display: flex;
+  gap: 16px;
+}
+
+footer .footer-social .social-icon-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+.copyright {
+  text-align: center;
+  border-top: #e5e7eb 1px solid;
+  padding-top: 30px;
 }
