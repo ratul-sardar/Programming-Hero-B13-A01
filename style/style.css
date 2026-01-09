@@ -326,6 +326,11 @@ footer .footer-social .social-icon-bg {
   width: 24px;
 }
 
+footer a {
+  color: #001931;
+  text-decoration: none;
+}
+
 .copyright {
   text-align: center;
   border-top: #e5e7eb 1px solid;
